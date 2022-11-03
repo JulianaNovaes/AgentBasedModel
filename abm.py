@@ -9,12 +9,14 @@ Created on Sun Sep 25 19:22:50 2022
 import random
 import matplotlib.animation
 import matplotlib.pyplot
+
 matplotlib.use("TKAgg")
 import agentframework
 import csv
 import requests
 import bs4
 import tkinter
+import customtkinter
 from data import environment
 
 # Getting the coordinates to initialize the agents
@@ -43,8 +45,8 @@ agents = []
 def make_sheep(num_of_sheep: int):
     """
     This function initializes the sheep and puts them in a predetermined coordinate
-    
-        Args: Number of sheep to be initialized 
+
+        Args: Number of sheep to be initialized
     """
 
     global agents
@@ -62,7 +64,7 @@ def make_sheep(num_of_sheep: int):
 def make_wolf(num_of_wolves: int) -> None:
     """
     This function initializes the wolf
-        
+
         Args: Number of wolves to be initialized
     """
 
@@ -83,11 +85,11 @@ carry_on = True
 
 # Move the agents.
 def run(n_of_sheep: int, n_of_wolves: int):
-    
+
     """
     This function runs the model by creating the agents and plotting the animation.
     """
-    global agents 
+    global agents
     if len(agents) == 0:
         make_sheep(n_of_sheep)
         make_wolf(n_of_wolves)
@@ -102,8 +104,9 @@ def run(n_of_sheep: int, n_of_wolves: int):
     )
     canvas.draw()
 
+
 def update(frame):
-    """"
+    """ "
     Defines the loops for the animation to be displayed
     """
 
@@ -167,10 +170,10 @@ with open("dataout.csv", "w", newline="") as f2:
 # Tkinter GUI
 
 ##Defines the theme for the GUI
-# customtkinter.set_appearance_mode("dark")  # Modes: "System" (standard), "Dark", "Light"
-# customtkinter.set_default_color_theme(
-#     "green"
-# )  # Themes: "blue" (standard), "green", "dark-blue"
+customtkinter.set_appearance_mode("dark")  # Modes: "System" (standard), "Dark", "Light"
+customtkinter.set_default_color_theme(
+    "green"
+)  # Themes: "blue" (standard), "green", "dark-blue"
 
 ##Initializes the app
 app = tkinter.Tk()
@@ -193,47 +196,41 @@ canvas._tkcanvas.grid(column=0, row=1, sticky="nswe", columnspan=2)
 canvas._tkcanvas.configure(background="black")
 
 # Creates frame where menu will be displayed
-frame_1 = tkinter.Frame(master=app)
+frame_1 = customtkinter.CTkFrame(master=app)
 frame_1.grid(row=0, column=0, sticky="nswe", columnspan=3)
 
 # Provides text for the menu
-label_1 = tkinter.Label(
+label_1 = customtkinter.CTkLabel(
     master=frame_1, text="Customize your agent-based model", justify=tkinter.LEFT
 )
 label_1.pack(pady=12, padx=10)
 
 # Allows users to choose how many sheep they want to add to the model
 
-label_2 = tkinter.Label(
+label_2 = customtkinter.CTkLabel(
     master=frame_1, text="Select the amount of sheep", justify=tkinter.LEFT
 )
 label_2.pack(pady=12, padx=10)
 
-sheeps = tkinter.StringVar(frame_1)
-sheeps.set("1")
-
-optionmenu_1 = tkinter.OptionMenu(frame_1, sheeps, *["2", "5", "10"])
+optionmenu_1 = customtkinter.CTkOptionMenu(frame_1, values=["2", "5", "10"])
 optionmenu_1.pack(pady=12, padx=10)
+optionmenu_1.set("1")
 
-# Allows users to choose how many wolves they want to add to the model
-label_3 = tkinter.Label(
+label_3 = customtkinter.CTkLabel(
     master=frame_1, text="Select the amount of wolves", justify=tkinter.LEFT
 )
 label_3.pack(pady=12, padx=10)
 
-
-wolves = tkinter.StringVar(frame_1)
-wolves.set("1")
-
-optionmenu_2 = tkinter.OptionMenu(frame_1, wolves, *["1"])
+# Allows users to choose how many wolves they want to add to the model
+optionmenu_2 = customtkinter.CTkOptionMenu(frame_1, values=["1"])
 optionmenu_2.pack(pady=12, padx=10)
-
+optionmenu_2.set("1")
 
 # Start button initializes the model
-button_1 = tkinter.Button(
+button_1 = customtkinter.CTkButton(
     master=frame_1,
     text="Start",
-    command=lambda: run(int(sheeps.get()), int(wolves.get())),
+    command=lambda: run(int(optionmenu_1.get()), int(optionmenu_2.get())),
 )
 button_1.pack(pady=12, padx=10)
 
