@@ -84,7 +84,7 @@ Download and run the file contained in this link: https://drive.google.com/drive
 
 ### With your local Python setup:
 
-To run the agent-based model in your machine, please, clone this repository and run the `abm.py` file., install the dependencies in the `requirements.txt` with `pip instlal -r requirements.txt` file and run.   
+To run the agent-based model in your machine, please, clone this repository and open the `abm.py` file., install the dependencies in the `requirements.txt` with `pip instlal -r requirements.txt` file and run.   
 It may take a bit of time for it to appear in your screen.
 
 
