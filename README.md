@@ -68,7 +68,9 @@ This class defines the behaviour specific to wolves.
 
 ## GUI
 
-A GUI was created so that users can play with the model. The GUI offers the possibility of users to choose the amount of sheep they want to include in the model <img width="790" alt="image" src="https://user-images.githubusercontent.com/46926638/199799691-728dcd3b-fc80-4254-b779-a678a1874867.png">
+<img width="790" alt="image" src="https://user-images.githubusercontent.com/46926638/199799691-728dcd3b-fc80-4254-b779-a678a1874867.png">
+
+A GUI was created so that users can play with the model. The GUI offers the possibility of users to choose the amount of sheep they want to include in the model 
 The GUI was built using the library Tkinter. 
 
 The GUI can be found in the `abm.py` file. 
