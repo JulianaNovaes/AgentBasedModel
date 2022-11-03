@@ -80,7 +80,7 @@ A video demonstration of the program can be found in the `demo_video.mp4` file.
 ## Running the agent-based model
 
 ### As an executable file: This option is only available for Mac users as this App was developed for Mac. 
-Run the model file from the dst folder. If you are a Windows user and would like to see how the app works, check out the `demo_video.mp4` file.
+Download and run the file contained in this link: https://drive.google.com/drive/folders/1DeA3doishmHaivsB8zbaFquPEBiBfsAt?usp=sharing. If you are a Windows user and would like to see how the app works, check out the `demo_video.mp4` file.
 
 ### With your local Python setup:
 
