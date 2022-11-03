@@ -1,0 +1,8 @@
+matplotlib==3.5.3
+numpy==1.23.3
+random==3.11.0
+pytest==7.20
+pytest-html==3.2.0
+tkinter==3.9.14
+customtkinter==0.3
+
