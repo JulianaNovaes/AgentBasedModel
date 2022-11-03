@@ -19,26 +19,6 @@ import tkinter
 import customtkinter
 from data import environment
 
-# Getting the coordinates to initialize the agents
-r = requests.get(
-    "http://www.geog.leeds.ac.uk/courses/computing/practicals/python/agent-framework/part9/data.html",
-    verify=False,
-)
-content = r.text
-soup = bs4.BeautifulSoup(content, "html.parser")
-td_ys = soup.find_all(attrs={"class": "y"})
-td_xs = soup.find_all(attrs={"class": "x"})
-
-
-# Creating the initial figure to plot the agents
-fig = matplotlib.pyplot.figure(figsize=(7, 7))
-ax = fig.add_axes([0, 0, 1, 1])
-fig.patch.set_facecolor("#696969")
-
-# Initializing the agents list
-agents = []
-
-
 # Make the agents
 
 ##Make sheep
@@ -77,10 +57,6 @@ def make_wolf(num_of_wolves: int) -> None:
         # y = int(td_ys[idx].text)
         # x = int(td_xs[idx].text)
         agents.append(agentframework.Wolf(f"Wolf {idx}", environment, agents, y, x))
-
-
-# Initialize carry on as True
-carry_on = True
 
 
 # Move the agents.
@@ -166,6 +142,30 @@ with open("dataout.csv", "w", newline="") as f2:
     writer = csv.writer(f2, delimiter=",")
     for row in environment:
         writer.writerow(row)
+
+
+# Initialize carry on as True
+carry_on = True
+
+
+# Getting the coordinates to initialize the agents
+r = requests.get(
+    "http://www.geog.leeds.ac.uk/courses/computing/practicals/python/agent-framework/part9/data.html",
+    verify=False,
+)
+content = r.text
+soup = bs4.BeautifulSoup(content, "html.parser")
+td_ys = soup.find_all(attrs={"class": "y"})
+td_xs = soup.find_all(attrs={"class": "x"})
+
+
+# Creating the initial figure to plot the agents
+fig = matplotlib.pyplot.figure(figsize=(7, 7))
+ax = fig.add_axes([0, 0, 1, 1])
+fig.patch.set_facecolor("#696969")
+
+# Initializing the agents list
+agents = []
 
 # Tkinter GUI
 
