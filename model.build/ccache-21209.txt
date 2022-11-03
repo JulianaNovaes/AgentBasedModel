@@ -1,0 +1,682 @@
+[2022-11-03T14:04:34.118987 21221] === CCACHE master.971f1183 STARTED =========================================
+[2022-11-03T14:04:34.118987 21221] Config: (default) absolute_paths_in_stderr = false
+[2022-11-03T14:04:34.118987 21221] Config: (default) base_dir = 
+[2022-11-03T14:04:34.118987 21221] Config: (environment) cache_dir = /Users/juliananovaes/Library/Caches/Nuitka/ccache
+[2022-11-03T14:04:34.118987 21221] Config: (default) compiler = 
+[2022-11-03T14:04:34.118987 21221] Config: (default) compiler_check = mtime
+[2022-11-03T14:04:34.118987 21221] Config: (default) compiler_type = auto
+[2022-11-03T14:04:34.118987 21221] Config: (default) compression = true
+[2022-11-03T14:04:34.118987 21221] Config: (default) compression_level = 0
+[2022-11-03T14:04:34.118987 21221] Config: (default) cpp_extension = 
+[2022-11-03T14:04:34.118987 21221] Config: (default) debug = false
+[2022-11-03T14:04:34.118987 21221] Config: (default) debug_dir = 
+[2022-11-03T14:04:34.118987 21221] Config: (default) depend_mode = false
+[2022-11-03T14:04:34.118987 21221] Config: (default) direct_mode = true
+[2022-11-03T14:04:34.118987 21221] Config: (default) disable = false
+[2022-11-03T14:04:34.118987 21221] Config: (default) extra_files_to_hash = 
+[2022-11-03T14:04:34.118987 21221] Config: (default) file_clone = false
+[2022-11-03T14:04:34.118987 21221] Config: (default) hard_link = false
+[2022-11-03T14:04:34.118987 21221] Config: (default) hash_dir = true
+[2022-11-03T14:04:34.118987 21221] Config: (default) ignore_headers_in_manifest = 
+[2022-11-03T14:04:34.118987 21221] Config: (default) ignore_options = 
+[2022-11-03T14:04:34.118987 21221] Config: (default) inode_cache = false
+[2022-11-03T14:04:34.118987 21221] Config: (default) keep_comments_cpp = false
+[2022-11-03T14:04:34.118987 21221] Config: (default) limit_multiple = 0.8
+[2022-11-03T14:04:34.118987 21221] Config: (environment) log_file = /Users/juliananovaes/Documents/pfsc/AgentBasedModel/model.build/ccache-21209.txt
+[2022-11-03T14:04:34.118987 21221] Config: (default) max_files = 0
+[2022-11-03T14:04:34.118987 21221] Config: (default) max_size = 5.0G
+[2022-11-03T14:04:34.118987 21221] Config: (default) path = 
+[2022-11-03T14:04:34.118987 21221] Config: (default) pch_external_checksum = false
+[2022-11-03T14:04:34.118987 21221] Config: (default) prefix_command = 
+[2022-11-03T14:04:34.118987 21221] Config: (default) prefix_command_cpp = 
+[2022-11-03T14:04:34.118987 21221] Config: (default) read_only = false
+[2022-11-03T14:04:34.118987 21221] Config: (default) read_only_direct = false
+[2022-11-03T14:04:34.118987 21221] Config: (default) recache = false
+[2022-11-03T14:04:34.118987 21221] Config: (default) run_second_cpp = true
+[2022-11-03T14:04:34.118987 21221] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2022-11-03T14:04:34.118987 21221] Config: (default) stats = true
+[2022-11-03T14:04:34.118987 21221] Config: (default) temporary_dir = /Users/juliananovaes/Library/Caches/Nuitka/ccache/tmp
+[2022-11-03T14:04:34.118987 21221] Config: (default) umask = 
+[2022-11-03T14:04:34.119806 21221] Command line: /Users/juliananovaes/Library/Application Support/Nuitka/ccache/v4.2.1/ccache /usr/bin/clang -o __constants.o -c -flto -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden --target=x86_64-apple-macos10.9 -O3 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_CODE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/Users/juliananovaes/opt/anaconda3/include/python3.7m -I. -I/Users/juliananovaes/opt/anaconda3/lib/python3.7/site-packages/nuitka/build/include -I/Users/juliananovaes/opt/anaconda3/lib/python3.7/site-packages/nuitka/build/static_src __constants.c
+[2022-11-03T14:04:34.119835 21221] Hostname: MacBookPro_Q9HJ6P5XMR
+[2022-11-03T14:04:34.119842 21221] Working directory: /Users/juliananovaes/Documents/pfsc/AgentBasedModel/model.build
+[2022-11-03T14:04:34.119918 21221] Compiler type: clang
+[2022-11-03T14:04:34.120131 21221] Source file: __constants.c
+[2022-11-03T14:04:34.120142 21221] Object file: __constants.o
+[2022-11-03T14:04:34.120322 21221] Trying direct lookup
+[2022-11-03T14:04:34.120719 21221] No manifest with name f77dmrooem47pm4b60mu3s1g6nelc9egg in the cache
+[2022-11-03T14:04:34.121871 21221] Running preprocessor
+[2022-11-03T14:04:34.121897 21221] Executing /usr/bin/clang -flto -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden --target=x86_64-apple-macos10.9 -O3 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_CODE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/Users/juliananovaes/opt/anaconda3/include/python3.7m -I. -I/Users/juliananovaes/opt/anaconda3/lib/python3.7/site-packages/nuitka/build/include -I/Users/juliananovaes/opt/anaconda3/lib/python3.7/site-packages/nuitka/build/static_src -E __constants.c
+[2022-11-03T14:04:34.122431 21222] === CCACHE master.971f1183 STARTED =========================================
+[2022-11-03T14:04:34.122431 21222] Config: (default) absolute_paths_in_stderr = false
+[2022-11-03T14:04:34.122431 21222] Config: (default) base_dir = 
+[2022-11-03T14:04:34.122431 21222] Config: (environment) cache_dir = /Users/juliananovaes/Library/Caches/Nuitka/ccache
+[2022-11-03T14:04:34.122431 21222] Config: (default) compiler = 
+[2022-11-03T14:04:34.122431 21222] Config: (default) compiler_check = mtime
+[2022-11-03T14:04:34.122431 21222] Config: (default) compiler_type = auto
+[2022-11-03T14:04:34.122431 21222] Config: (default) compression = true
+[2022-11-03T14:04:34.122431 21222] Config: (default) compression_level = 0
+[2022-11-03T14:04:34.122431 21222] Config: (default) cpp_extension = 
+[2022-11-03T14:04:34.122431 21222] Config: (default) debug = false
+[2022-11-03T14:04:34.122431 21222] Config: (default) debug_dir = 
+[2022-11-03T14:04:34.122431 21222] Config: (default) depend_mode = false
+[2022-11-03T14:04:34.122431 21222] Config: (default) direct_mode = true
+[2022-11-03T14:04:34.122431 21222] Config: (environment) disable = true
+[2022-11-03T14:04:34.122431 21222] Config: (default) extra_files_to_hash = 
+[2022-11-03T14:04:34.122431 21222] Config: (default) file_clone = false
+[2022-11-03T14:04:34.122431 21222] Config: (default) hard_link = false
+[2022-11-03T14:04:34.122431 21222] Config: (default) hash_dir = true
+[2022-11-03T14:04:34.122431 21222] Config: (default) ignore_headers_in_manifest = 
+[2022-11-03T14:04:34.122431 21222] Config: (default) ignore_options = 
+[2022-11-03T14:04:34.122431 21222] Config: (default) inode_cache = false
+[2022-11-03T14:04:34.122431 21222] Config: (default) keep_comments_cpp = false
+[2022-11-03T14:04:34.122431 21222] Config: (default) limit_multiple = 0.8
+[2022-11-03T14:04:34.122431 21222] Config: (environment) log_file = /Users/juliananovaes/Documents/pfsc/AgentBasedModel/model.build/ccache-21209.txt
+[2022-11-03T14:04:34.122431 21222] Config: (default) max_files = 0
+[2022-11-03T14:04:34.122431 21222] Config: (default) max_size = 5.0G
+[2022-11-03T14:04:34.122431 21222] Config: (default) path = 
+[2022-11-03T14:04:34.122431 21222] Config: (default) pch_external_checksum = false
+[2022-11-03T14:04:34.122431 21222] Config: (default) prefix_command = 
+[2022-11-03T14:04:34.122431 21222] Config: (default) prefix_command_cpp = 
+[2022-11-03T14:04:34.122431 21222] Config: (default) read_only = false
+[2022-11-03T14:04:34.122431 21222] Config: (default) read_only_direct = false
+[2022-11-03T14:04:34.122431 21222] Config: (default) recache = false
+[2022-11-03T14:04:34.122431 21222] Config: (default) run_second_cpp = true
+[2022-11-03T14:04:34.122431 21222] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2022-11-03T14:04:34.122431 21222] Config: (default) stats = true
+[2022-11-03T14:04:34.122431 21222] Config: (default) temporary_dir = /Users/juliananovaes/Library/Caches/Nuitka/ccache/tmp
+[2022-11-03T14:04:34.122431 21222] Config: (default) umask = 
+[2022-11-03T14:04:34.122555 21222] ccache is disabled
+[2022-11-03T14:04:34.123370 21222] Failed; falling back to running the real compiler
+[2022-11-03T14:04:34.123433 21222] Executing /usr/bin/clang -o __constants_data.o -c -flto -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden --target=x86_64-apple-macos10.9 -O3 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_CODE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/Users/juliananovaes/opt/anaconda3/include/python3.7m -I. -I/Users/juliananovaes/opt/anaconda3/lib/python3.7/site-packages/nuitka/build/include -I/Users/juliananovaes/opt/anaconda3/lib/python3.7/site-packages/nuitka/build/static_src __constants_data.c
+[2022-11-03T14:04:34.123549 21222] Result: disabled
+[2022-11-03T14:04:34.132362 21223] === CCACHE master.971f1183 STARTED =========================================
+[2022-11-03T14:04:34.132362 21223] Config: (default) absolute_paths_in_stderr = false
+[2022-11-03T14:04:34.132362 21223] Config: (default) base_dir = 
+[2022-11-03T14:04:34.132362 21223] Config: (environment) cache_dir = /Users/juliananovaes/Library/Caches/Nuitka/ccache
+[2022-11-03T14:04:34.132362 21223] Config: (default) compiler = 
+[2022-11-03T14:04:34.132362 21223] Config: (default) compiler_check = mtime
+[2022-11-03T14:04:34.132362 21223] Config: (default) compiler_type = auto
+[2022-11-03T14:04:34.132362 21223] Config: (default) compression = true
+[2022-11-03T14:04:34.132362 21223] Config: (default) compression_level = 0
+[2022-11-03T14:04:34.132362 21223] Config: (default) cpp_extension = 
+[2022-11-03T14:04:34.132362 21223] Config: (default) debug = false
+[2022-11-03T14:04:34.132362 21223] Config: (default) debug_dir = 
+[2022-11-03T14:04:34.132362 21223] Config: (default) depend_mode = false
+[2022-11-03T14:04:34.132362 21223] Config: (default) direct_mode = true
+[2022-11-03T14:04:34.132362 21223] Config: (default) disable = false
+[2022-11-03T14:04:34.132362 21223] Config: (default) extra_files_to_hash = 
+[2022-11-03T14:04:34.132362 21223] Config: (default) file_clone = false
+[2022-11-03T14:04:34.132362 21223] Config: (default) hard_link = false
+[2022-11-03T14:04:34.132362 21223] Config: (default) hash_dir = true
+[2022-11-03T14:04:34.132362 21223] Config: (default) ignore_headers_in_manifest = 
+[2022-11-03T14:04:34.132362 21223] Config: (default) ignore_options = 
+[2022-11-03T14:04:34.132362 21223] Config: (default) inode_cache = false
+[2022-11-03T14:04:34.132362 21223] Config: (default) keep_comments_cpp = false
+[2022-11-03T14:04:34.132362 21223] Config: (default) limit_multiple = 0.8
+[2022-11-03T14:04:34.132362 21223] Config: (environment) log_file = /Users/juliananovaes/Documents/pfsc/AgentBasedModel/model.build/ccache-21209.txt
+[2022-11-03T14:04:34.132362 21223] Config: (default) max_files = 0
+[2022-11-03T14:04:34.132362 21223] Config: (default) max_size = 5.0G
+[2022-11-03T14:04:34.132362 21223] Config: (default) path = 
+[2022-11-03T14:04:34.132362 21223] Config: (default) pch_external_checksum = false
+[2022-11-03T14:04:34.132362 21223] Config: (default) prefix_command = 
+[2022-11-03T14:04:34.132362 21223] Config: (default) prefix_command_cpp = 
+[2022-11-03T14:04:34.132362 21223] Config: (default) read_only = false
+[2022-11-03T14:04:34.132362 21223] Config: (default) read_only_direct = false
+[2022-11-03T14:04:34.132362 21223] Config: (default) recache = false
+[2022-11-03T14:04:34.132362 21223] Config: (default) run_second_cpp = true
+[2022-11-03T14:04:34.132362 21223] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2022-11-03T14:04:34.132362 21223] Config: (default) stats = true
+[2022-11-03T14:04:34.132362 21223] Config: (default) temporary_dir = /Users/juliananovaes/Library/Caches/Nuitka/ccache/tmp
+[2022-11-03T14:04:34.132362 21223] Config: (default) umask = 
+[2022-11-03T14:04:34.132514 21223] Command line: /Users/juliananovaes/Library/Application Support/Nuitka/ccache/v4.2.1/ccache /usr/bin/clang -o __helpers.o -c -flto -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden --target=x86_64-apple-macos10.9 -O3 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_CODE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/Users/juliananovaes/opt/anaconda3/include/python3.7m -I. -I/Users/juliananovaes/opt/anaconda3/lib/python3.7/site-packages/nuitka/build/include -I/Users/juliananovaes/opt/anaconda3/lib/python3.7/site-packages/nuitka/build/static_src __helpers.c
+[2022-11-03T14:04:34.132535 21223] Hostname: MacBookPro_Q9HJ6P5XMR
+[2022-11-03T14:04:34.132543 21223] Working directory: /Users/juliananovaes/Documents/pfsc/AgentBasedModel/model.build
+[2022-11-03T14:04:34.132549 21223] Compiler type: clang
+[2022-11-03T14:04:34.132636 21223] Source file: __helpers.c
+[2022-11-03T14:04:34.132642 21223] Object file: __helpers.o
+[2022-11-03T14:04:34.132675 21223] Trying direct lookup
+[2022-11-03T14:04:34.132876 21223] No manifest with name 02badmq775dujqem2bfl4purj3u03cei8 in the cache
+[2022-11-03T14:04:34.133783 21223] Running preprocessor
+[2022-11-03T14:04:34.133808 21223] Executing /usr/bin/clang -flto -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden --target=x86_64-apple-macos10.9 -O3 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_CODE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/Users/juliananovaes/opt/anaconda3/include/python3.7m -I. -I/Users/juliananovaes/opt/anaconda3/lib/python3.7/site-packages/nuitka/build/include -I/Users/juliananovaes/opt/anaconda3/lib/python3.7/site-packages/nuitka/build/static_src -E __helpers.c
+[2022-11-03T14:04:34.141893 21224] === CCACHE master.971f1183 STARTED =========================================
+[2022-11-03T14:04:34.141893 21224] Config: (default) absolute_paths_in_stderr = false
+[2022-11-03T14:04:34.141893 21224] Config: (default) base_dir = 
+[2022-11-03T14:04:34.141893 21224] Config: (environment) cache_dir = /Users/juliananovaes/Library/Caches/Nuitka/ccache
+[2022-11-03T14:04:34.141893 21224] Config: (default) compiler = 
+[2022-11-03T14:04:34.141893 21224] Config: (default) compiler_check = mtime
+[2022-11-03T14:04:34.141893 21224] Config: (default) compiler_type = auto
+[2022-11-03T14:04:34.141893 21224] Config: (default) compression = true
+[2022-11-03T14:04:34.141893 21224] Config: (default) compression_level = 0
+[2022-11-03T14:04:34.141893 21224] Config: (default) cpp_extension = 
+[2022-11-03T14:04:34.141893 21224] Config: (default) debug = false
+[2022-11-03T14:04:34.141893 21224] Config: (default) debug_dir = 
+[2022-11-03T14:04:34.141893 21224] Config: (default) depend_mode = false
+[2022-11-03T14:04:34.141893 21224] Config: (default) direct_mode = true
+[2022-11-03T14:04:34.141893 21224] Config: (default) disable = false
+[2022-11-03T14:04:34.141893 21224] Config: (default) extra_files_to_hash = 
+[2022-11-03T14:04:34.141893 21224] Config: (default) file_clone = false
+[2022-11-03T14:04:34.141893 21224] Config: (default) hard_link = false
+[2022-11-03T14:04:34.141893 21224] Config: (default) hash_dir = true
+[2022-11-03T14:04:34.141893 21224] Config: (default) ignore_headers_in_manifest = 
+[2022-11-03T14:04:34.141893 21224] Config: (default) ignore_options = 
+[2022-11-03T14:04:34.141893 21224] Config: (default) inode_cache = false
+[2022-11-03T14:04:34.141893 21224] Config: (default) keep_comments_cpp = false
+[2022-11-03T14:04:34.141893 21224] Config: (default) limit_multiple = 0.8
+[2022-11-03T14:04:34.141893 21224] Config: (environment) log_file = /Users/juliananovaes/Documents/pfsc/AgentBasedModel/model.build/ccache-21209.txt
+[2022-11-03T14:04:34.141893 21224] Config: (default) max_files = 0
+[2022-11-03T14:04:34.141893 21224] Config: (default) max_size = 5.0G
+[2022-11-03T14:04:34.141893 21224] Config: (default) path = 
+[2022-11-03T14:04:34.141893 21224] Config: (default) pch_external_checksum = false
+[2022-11-03T14:04:34.141893 21224] Config: (default) prefix_command = 
+[2022-11-03T14:04:34.141893 21224] Config: (default) prefix_command_cpp = 
+[2022-11-03T14:04:34.141893 21224] Config: (default) read_only = false
+[2022-11-03T14:04:34.141893 21224] Config: (default) read_only_direct = false
+[2022-11-03T14:04:34.141893 21224] Config: (default) recache = false
+[2022-11-03T14:04:34.141893 21224] Config: (default) run_second_cpp = true
+[2022-11-03T14:04:34.141893 21224] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2022-11-03T14:04:34.141893 21224] Config: (default) stats = true
+[2022-11-03T14:04:34.141893 21224] Config: (default) temporary_dir = /Users/juliananovaes/Library/Caches/Nuitka/ccache/tmp
+[2022-11-03T14:04:34.141893 21224] Config: (default) umask = 
+[2022-11-03T14:04:34.142047 21224] Command line: /Users/juliananovaes/Library/Application Support/Nuitka/ccache/v4.2.1/ccache /usr/bin/clang -o __loader.o -c -flto -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden --target=x86_64-apple-macos10.9 -O3 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_CODE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/Users/juliananovaes/opt/anaconda3/include/python3.7m -I. -I/Users/juliananovaes/opt/anaconda3/lib/python3.7/site-packages/nuitka/build/include -I/Users/juliananovaes/opt/anaconda3/lib/python3.7/site-packages/nuitka/build/static_src __loader.c
+[2022-11-03T14:04:34.142072 21224] Hostname: MacBookPro_Q9HJ6P5XMR
+[2022-11-03T14:04:34.142080 21224] Working directory: /Users/juliananovaes/Documents/pfsc/AgentBasedModel/model.build
+[2022-11-03T14:04:34.142088 21224] Compiler type: clang
+[2022-11-03T14:04:34.142179 21224] Source file: __loader.c
+[2022-11-03T14:04:34.142187 21224] Object file: __loader.o
+[2022-11-03T14:04:34.142219 21224] Trying direct lookup
+[2022-11-03T14:04:34.142460 21224] No manifest with name 6111s3rtqiftdl9jujs15bqgvpoadhdk4 in the cache
+[2022-11-03T14:04:34.143457 21224] Running preprocessor
+[2022-11-03T14:04:34.143483 21224] Executing /usr/bin/clang -flto -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden --target=x86_64-apple-macos10.9 -O3 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_CODE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/Users/juliananovaes/opt/anaconda3/include/python3.7m -I. -I/Users/juliananovaes/opt/anaconda3/lib/python3.7/site-packages/nuitka/build/include -I/Users/juliananovaes/opt/anaconda3/lib/python3.7/site-packages/nuitka/build/static_src -E __loader.c
+[2022-11-03T14:04:34.157772 21227] === CCACHE master.971f1183 STARTED =========================================
+[2022-11-03T14:04:34.157772 21227] Config: (default) absolute_paths_in_stderr = false
+[2022-11-03T14:04:34.157772 21227] Config: (default) base_dir = 
+[2022-11-03T14:04:34.157772 21227] Config: (environment) cache_dir = /Users/juliananovaes/Library/Caches/Nuitka/ccache
+[2022-11-03T14:04:34.157772 21227] Config: (default) compiler = 
+[2022-11-03T14:04:34.157772 21227] Config: (default) compiler_check = mtime
+[2022-11-03T14:04:34.157772 21227] Config: (default) compiler_type = auto
+[2022-11-03T14:04:34.157772 21227] Config: (default) compression = true
+[2022-11-03T14:04:34.157772 21227] Config: (default) compression_level = 0
+[2022-11-03T14:04:34.157772 21227] Config: (default) cpp_extension = 
+[2022-11-03T14:04:34.157772 21227] Config: (default) debug = false
+[2022-11-03T14:04:34.157772 21227] Config: (default) debug_dir = 
+[2022-11-03T14:04:34.157772 21227] Config: (default) depend_mode = false
+[2022-11-03T14:04:34.157772 21227] Config: (default) direct_mode = true
+[2022-11-03T14:04:34.157772 21227] Config: (default) disable = false
+[2022-11-03T14:04:34.157772 21227] Config: (default) extra_files_to_hash = 
+[2022-11-03T14:04:34.157772 21227] Config: (default) file_clone = false
+[2022-11-03T14:04:34.157772 21227] Config: (default) hard_link = false
+[2022-11-03T14:04:34.157772 21227] Config: (default) hash_dir = true
+[2022-11-03T14:04:34.157772 21227] Config: (default) ignore_headers_in_manifest = 
+[2022-11-03T14:04:34.157772 21227] Config: (default) ignore_options = 
+[2022-11-03T14:04:34.157772 21227] Config: (default) inode_cache = false
+[2022-11-03T14:04:34.157772 21227] Config: (default) keep_comments_cpp = false
+[2022-11-03T14:04:34.157772 21227] Config: (default) limit_multiple = 0.8
+[2022-11-03T14:04:34.157772 21227] Config: (environment) log_file = /Users/juliananovaes/Documents/pfsc/AgentBasedModel/model.build/ccache-21209.txt
+[2022-11-03T14:04:34.157772 21227] Config: (default) max_files = 0
+[2022-11-03T14:04:34.157772 21227] Config: (default) max_size = 5.0G
+[2022-11-03T14:04:34.157772 21227] Config: (default) path = 
+[2022-11-03T14:04:34.157772 21227] Config: (default) pch_external_checksum = false
+[2022-11-03T14:04:34.157772 21227] Config: (default) prefix_command = 
+[2022-11-03T14:04:34.157772 21227] Config: (default) prefix_command_cpp = 
+[2022-11-03T14:04:34.157772 21227] Config: (default) read_only = false
+[2022-11-03T14:04:34.157772 21227] Config: (default) read_only_direct = false
+[2022-11-03T14:04:34.157772 21227] Config: (default) recache = false
+[2022-11-03T14:04:34.157772 21227] Config: (default) run_second_cpp = true
+[2022-11-03T14:04:34.157772 21227] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2022-11-03T14:04:34.157772 21227] Config: (default) stats = true
+[2022-11-03T14:04:34.157772 21227] Config: (default) temporary_dir = /Users/juliananovaes/Library/Caches/Nuitka/ccache/tmp
+[2022-11-03T14:04:34.157772 21227] Config: (default) umask = 
+[2022-11-03T14:04:34.157910 21227] Command line: /Users/juliananovaes/Library/Application Support/Nuitka/ccache/v4.2.1/ccache /usr/bin/clang -o module.__main__.o -c -flto -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden --target=x86_64-apple-macos10.9 -O3 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_CODE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/Users/juliananovaes/opt/anaconda3/include/python3.7m -I. -I/Users/juliananovaes/opt/anaconda3/lib/python3.7/site-packages/nuitka/build/include -I/Users/juliananovaes/opt/anaconda3/lib/python3.7/site-packages/nuitka/build/static_src module.__main__.c
+[2022-11-03T14:04:34.157936 21227] Hostname: MacBookPro_Q9HJ6P5XMR
+[2022-11-03T14:04:34.157942 21227] Working directory: /Users/juliananovaes/Documents/pfsc/AgentBasedModel/model.build
+[2022-11-03T14:04:34.157947 21227] Compiler type: clang
+[2022-11-03T14:04:34.158034 21227] Source file: module.__main__.c
+[2022-11-03T14:04:34.158041 21227] Object file: module.__main__.o
+[2022-11-03T14:04:34.158071 21227] Trying direct lookup
+[2022-11-03T14:04:34.158943 21227] No manifest with name 689878d7vlr91h4rdh6qhdh48st72gq30 in the cache
+[2022-11-03T14:04:34.160022 21227] Running preprocessor
+[2022-11-03T14:04:34.160052 21227] Executing /usr/bin/clang -flto -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden --target=x86_64-apple-macos10.9 -O3 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_CODE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/Users/juliananovaes/opt/anaconda3/include/python3.7m -I. -I/Users/juliananovaes/opt/anaconda3/lib/python3.7/site-packages/nuitka/build/include -I/Users/juliananovaes/opt/anaconda3/lib/python3.7/site-packages/nuitka/build/static_src -E module.__main__.c
+[2022-11-03T14:04:34.173608 21229] === CCACHE master.971f1183 STARTED =========================================
+[2022-11-03T14:04:34.173608 21229] Config: (default) absolute_paths_in_stderr = false
+[2022-11-03T14:04:34.173608 21229] Config: (default) base_dir = 
+[2022-11-03T14:04:34.173608 21229] Config: (environment) cache_dir = /Users/juliananovaes/Library/Caches/Nuitka/ccache
+[2022-11-03T14:04:34.173608 21229] Config: (default) compiler = 
+[2022-11-03T14:04:34.173608 21229] Config: (default) compiler_check = mtime
+[2022-11-03T14:04:34.173608 21229] Config: (default) compiler_type = auto
+[2022-11-03T14:04:34.173608 21229] Config: (default) compression = true
+[2022-11-03T14:04:34.173608 21229] Config: (default) compression_level = 0
+[2022-11-03T14:04:34.173608 21229] Config: (default) cpp_extension = 
+[2022-11-03T14:04:34.173608 21229] Config: (default) debug = false
+[2022-11-03T14:04:34.173608 21229] Config: (default) debug_dir = 
+[2022-11-03T14:04:34.173608 21229] Config: (default) depend_mode = false
+[2022-11-03T14:04:34.173608 21229] Config: (default) direct_mode = true
+[2022-11-03T14:04:34.173608 21229] Config: (default) disable = false
+[2022-11-03T14:04:34.173608 21229] Config: (default) extra_files_to_hash = 
+[2022-11-03T14:04:34.173608 21229] Config: (default) file_clone = false
+[2022-11-03T14:04:34.173608 21229] Config: (default) hard_link = false
+[2022-11-03T14:04:34.173608 21229] Config: (default) hash_dir = true
+[2022-11-03T14:04:34.173608 21229] Config: (default) ignore_headers_in_manifest = 
+[2022-11-03T14:04:34.173608 21229] Config: (default) ignore_options = 
+[2022-11-03T14:04:34.173608 21229] Config: (default) inode_cache = false
+[2022-11-03T14:04:34.173608 21229] Config: (default) keep_comments_cpp = false
+[2022-11-03T14:04:34.173608 21229] Config: (default) limit_multiple = 0.8
+[2022-11-03T14:04:34.173608 21229] Config: (environment) log_file = /Users/juliananovaes/Documents/pfsc/AgentBasedModel/model.build/ccache-21209.txt
+[2022-11-03T14:04:34.173608 21229] Config: (default) max_files = 0
+[2022-11-03T14:04:34.173608 21229] Config: (default) max_size = 5.0G
+[2022-11-03T14:04:34.173608 21229] Config: (default) path = 
+[2022-11-03T14:04:34.173608 21229] Config: (default) pch_external_checksum = false
+[2022-11-03T14:04:34.173608 21229] Config: (default) prefix_command = 
+[2022-11-03T14:04:34.173608 21229] Config: (default) prefix_command_cpp = 
+[2022-11-03T14:04:34.173608 21229] Config: (default) read_only = false
+[2022-11-03T14:04:34.173608 21229] Config: (default) read_only_direct = false
+[2022-11-03T14:04:34.173608 21229] Config: (default) recache = false
+[2022-11-03T14:04:34.173608 21229] Config: (default) run_second_cpp = true
+[2022-11-03T14:04:34.173608 21229] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2022-11-03T14:04:34.173608 21229] Config: (default) stats = true
+[2022-11-03T14:04:34.173608 21229] Config: (default) temporary_dir = /Users/juliananovaes/Library/Caches/Nuitka/ccache/tmp
+[2022-11-03T14:04:34.173608 21229] Config: (default) umask = 
+[2022-11-03T14:04:34.173771 21229] Command line: /Users/juliananovaes/Library/Application Support/Nuitka/ccache/v4.2.1/ccache /usr/bin/clang -o static_src/MainProgram.o -c -flto -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden --target=x86_64-apple-macos10.9 -O3 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_CODE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/Users/juliananovaes/opt/anaconda3/include/python3.7m -I. -I/Users/juliananovaes/opt/anaconda3/lib/python3.7/site-packages/nuitka/build/include -I/Users/juliananovaes/opt/anaconda3/lib/python3.7/site-packages/nuitka/build/static_src static_src/MainProgram.c
+[2022-11-03T14:04:34.173800 21229] Hostname: MacBookPro_Q9HJ6P5XMR
+[2022-11-03T14:04:34.173805 21229] Working directory: /Users/juliananovaes/Documents/pfsc/AgentBasedModel/model.build
+[2022-11-03T14:04:34.173811 21229] Compiler type: clang
+[2022-11-03T14:04:34.173909 21229] Source file: static_src/MainProgram.c
+[2022-11-03T14:04:34.173918 21229] Object file: static_src/MainProgram.o
+[2022-11-03T14:04:34.173947 21229] Trying direct lookup
+[2022-11-03T14:04:34.174246 21229] No manifest with name 51c4rt1ivdamn1ndauh6v8mtvj87u41la in the cache
+[2022-11-03T14:04:34.175767 21229] Running preprocessor
+[2022-11-03T14:04:34.175794 21229] Executing /usr/bin/clang -flto -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden --target=x86_64-apple-macos10.9 -O3 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_CODE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/Users/juliananovaes/opt/anaconda3/include/python3.7m -I. -I/Users/juliananovaes/opt/anaconda3/lib/python3.7/site-packages/nuitka/build/include -I/Users/juliananovaes/opt/anaconda3/lib/python3.7/site-packages/nuitka/build/static_src -E static_src/MainProgram.c
+[2022-11-03T14:04:34.190164 21233] === CCACHE master.971f1183 STARTED =========================================
+[2022-11-03T14:04:34.190164 21233] Config: (default) absolute_paths_in_stderr = false
+[2022-11-03T14:04:34.190164 21233] Config: (default) base_dir = 
+[2022-11-03T14:04:34.190164 21233] Config: (environment) cache_dir = /Users/juliananovaes/Library/Caches/Nuitka/ccache
+[2022-11-03T14:04:34.190164 21233] Config: (default) compiler = 
+[2022-11-03T14:04:34.190164 21233] Config: (default) compiler_check = mtime
+[2022-11-03T14:04:34.190164 21233] Config: (default) compiler_type = auto
+[2022-11-03T14:04:34.190164 21233] Config: (default) compression = true
+[2022-11-03T14:04:34.190164 21233] Config: (default) compression_level = 0
+[2022-11-03T14:04:34.190164 21233] Config: (default) cpp_extension = 
+[2022-11-03T14:04:34.190164 21233] Config: (default) debug = false
+[2022-11-03T14:04:34.190164 21233] Config: (default) debug_dir = 
+[2022-11-03T14:04:34.190164 21233] Config: (default) depend_mode = false
+[2022-11-03T14:04:34.190164 21233] Config: (default) direct_mode = true
+[2022-11-03T14:04:34.190164 21233] Config: (default) disable = false
+[2022-11-03T14:04:34.190164 21233] Config: (default) extra_files_to_hash = 
+[2022-11-03T14:04:34.190164 21233] Config: (default) file_clone = false
+[2022-11-03T14:04:34.190164 21233] Config: (default) hard_link = false
+[2022-11-03T14:04:34.190164 21233] Config: (default) hash_dir = true
+[2022-11-03T14:04:34.190164 21233] Config: (default) ignore_headers_in_manifest = 
+[2022-11-03T14:04:34.190164 21233] Config: (default) ignore_options = 
+[2022-11-03T14:04:34.190164 21233] Config: (default) inode_cache = false
+[2022-11-03T14:04:34.190164 21233] Config: (default) keep_comments_cpp = false
+[2022-11-03T14:04:34.190164 21233] Config: (default) limit_multiple = 0.8
+[2022-11-03T14:04:34.190164 21233] Config: (environment) log_file = /Users/juliananovaes/Documents/pfsc/AgentBasedModel/model.build/ccache-21209.txt
+[2022-11-03T14:04:34.190164 21233] Config: (default) max_files = 0
+[2022-11-03T14:04:34.190164 21233] Config: (default) max_size = 5.0G
+[2022-11-03T14:04:34.190164 21233] Config: (default) path = 
+[2022-11-03T14:04:34.190164 21233] Config: (default) pch_external_checksum = false
+[2022-11-03T14:04:34.190164 21233] Config: (default) prefix_command = 
+[2022-11-03T14:04:34.190164 21233] Config: (default) prefix_command_cpp = 
+[2022-11-03T14:04:34.190164 21233] Config: (default) read_only = false
+[2022-11-03T14:04:34.190164 21233] Config: (default) read_only_direct = false
+[2022-11-03T14:04:34.190164 21233] Config: (default) recache = false
+[2022-11-03T14:04:34.190164 21233] Config: (default) run_second_cpp = true
+[2022-11-03T14:04:34.190164 21233] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2022-11-03T14:04:34.190164 21233] Config: (default) stats = true
+[2022-11-03T14:04:34.190164 21233] Config: (default) temporary_dir = /Users/juliananovaes/Library/Caches/Nuitka/ccache/tmp
+[2022-11-03T14:04:34.190164 21233] Config: (default) umask = 
+[2022-11-03T14:04:34.190326 21233] Command line: /Users/juliananovaes/Library/Application Support/Nuitka/ccache/v4.2.1/ccache /usr/bin/clang -o static_src/CompiledCellType.o -c -flto -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden --target=x86_64-apple-macos10.9 -O3 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_CODE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/Users/juliananovaes/opt/anaconda3/include/python3.7m -I. -I/Users/juliananovaes/opt/anaconda3/lib/python3.7/site-packages/nuitka/build/include -I/Users/juliananovaes/opt/anaconda3/lib/python3.7/site-packages/nuitka/build/static_src static_src/CompiledCellType.c
+[2022-11-03T14:04:34.190346 21233] Hostname: MacBookPro_Q9HJ6P5XMR
+[2022-11-03T14:04:34.190351 21233] Working directory: /Users/juliananovaes/Documents/pfsc/AgentBasedModel/model.build
+[2022-11-03T14:04:34.190356 21233] Compiler type: clang
+[2022-11-03T14:04:34.190444 21233] Source file: static_src/CompiledCellType.c
+[2022-11-03T14:04:34.190450 21233] Object file: static_src/CompiledCellType.o
+[2022-11-03T14:04:34.190477 21233] Trying direct lookup
+[2022-11-03T14:04:34.190840 21233] No manifest with name bfa8hostq102c9thggkb4k86aphmhr6lm in the cache
+[2022-11-03T14:04:34.191672 21233] Running preprocessor
+[2022-11-03T14:04:34.191695 21233] Executing /usr/bin/clang -flto -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden --target=x86_64-apple-macos10.9 -O3 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_CODE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/Users/juliananovaes/opt/anaconda3/include/python3.7m -I. -I/Users/juliananovaes/opt/anaconda3/lib/python3.7/site-packages/nuitka/build/include -I/Users/juliananovaes/opt/anaconda3/lib/python3.7/site-packages/nuitka/build/static_src -E static_src/CompiledCellType.c
+[2022-11-03T14:04:34.319903 21224] Got result name from preprocessor
+[2022-11-03T14:04:34.319984 21224] No result with name 569c2u45e8d0dnn003b76ft1346pf14hs in the cache
+[2022-11-03T14:04:34.320005 21224] Running real compiler
+[2022-11-03T14:04:34.320576 21224] Executing /usr/bin/clang -flto -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden --target=x86_64-apple-macos10.9 -O3 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_CODE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/Users/juliananovaes/opt/anaconda3/include/python3.7m -I. -I/Users/juliananovaes/opt/anaconda3/lib/python3.7/site-packages/nuitka/build/include -I/Users/juliananovaes/opt/anaconda3/lib/python3.7/site-packages/nuitka/build/static_src -c -fcolor-diagnostics -o __loader.o __loader.c
+[2022-11-03T14:04:34.348097 21242] === CCACHE master.971f1183 STARTED =========================================
+[2022-11-03T14:04:34.348097 21242] Config: (default) absolute_paths_in_stderr = false
+[2022-11-03T14:04:34.348097 21242] Config: (default) base_dir = 
+[2022-11-03T14:04:34.348097 21242] Config: (environment) cache_dir = /Users/juliananovaes/Library/Caches/Nuitka/ccache
+[2022-11-03T14:04:34.348097 21242] Config: (default) compiler = 
+[2022-11-03T14:04:34.348097 21242] Config: (default) compiler_check = mtime
+[2022-11-03T14:04:34.348097 21242] Config: (default) compiler_type = auto
+[2022-11-03T14:04:34.348097 21242] Config: (default) compression = true
+[2022-11-03T14:04:34.348097 21242] Config: (default) compression_level = 0
+[2022-11-03T14:04:34.348097 21242] Config: (default) cpp_extension = 
+[2022-11-03T14:04:34.348097 21242] Config: (default) debug = false
+[2022-11-03T14:04:34.348097 21242] Config: (default) debug_dir = 
+[2022-11-03T14:04:34.348097 21242] Config: (default) depend_mode = false
+[2022-11-03T14:04:34.348097 21242] Config: (default) direct_mode = true
+[2022-11-03T14:04:34.348097 21242] Config: (default) disable = false
+[2022-11-03T14:04:34.348097 21242] Config: (default) extra_files_to_hash = 
+[2022-11-03T14:04:34.348097 21242] Config: (default) file_clone = false
+[2022-11-03T14:04:34.348097 21242] Config: (default) hard_link = false
+[2022-11-03T14:04:34.348097 21242] Config: (default) hash_dir = true
+[2022-11-03T14:04:34.348097 21242] Config: (default) ignore_headers_in_manifest = 
+[2022-11-03T14:04:34.348097 21242] Config: (default) ignore_options = 
+[2022-11-03T14:04:34.348097 21242] Config: (default) inode_cache = false
+[2022-11-03T14:04:34.348097 21242] Config: (default) keep_comments_cpp = false
+[2022-11-03T14:04:34.348097 21242] Config: (default) limit_multiple = 0.8
+[2022-11-03T14:04:34.348097 21242] Config: (environment) log_file = /Users/juliananovaes/Documents/pfsc/AgentBasedModel/model.build/ccache-21209.txt
+[2022-11-03T14:04:34.348097 21242] Config: (default) max_files = 0
+[2022-11-03T14:04:34.348097 21242] Config: (default) max_size = 5.0G
+[2022-11-03T14:04:34.348097 21242] Config: (default) path = 
+[2022-11-03T14:04:34.348097 21242] Config: (default) pch_external_checksum = false
+[2022-11-03T14:04:34.348097 21242] Config: (default) prefix_command = 
+[2022-11-03T14:04:34.348097 21242] Config: (default) prefix_command_cpp = 
+[2022-11-03T14:04:34.348097 21242] Config: (default) read_only = false
+[2022-11-03T14:04:34.348097 21242] Config: (default) read_only_direct = false
+[2022-11-03T14:04:34.348097 21242] Config: (default) recache = false
+[2022-11-03T14:04:34.348097 21242] Config: (default) run_second_cpp = true
+[2022-11-03T14:04:34.348097 21242] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2022-11-03T14:04:34.348097 21242] Config: (default) stats = true
+[2022-11-03T14:04:34.348097 21242] Config: (default) temporary_dir = /Users/juliananovaes/Library/Caches/Nuitka/ccache/tmp
+[2022-11-03T14:04:34.348097 21242] Config: (default) umask = 
+[2022-11-03T14:04:34.348265 21242] Command line: /Users/juliananovaes/Library/Application Support/Nuitka/ccache/v4.2.1/ccache /usr/bin/clang -o static_src/CompiledFunctionType.o -c -flto -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden --target=x86_64-apple-macos10.9 -O3 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_CODE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/Users/juliananovaes/opt/anaconda3/include/python3.7m -I. -I/Users/juliananovaes/opt/anaconda3/lib/python3.7/site-packages/nuitka/build/include -I/Users/juliananovaes/opt/anaconda3/lib/python3.7/site-packages/nuitka/build/static_src static_src/CompiledFunctionType.c
+[2022-11-03T14:04:34.348289 21242] Hostname: MacBookPro_Q9HJ6P5XMR
+[2022-11-03T14:04:34.348294 21242] Working directory: /Users/juliananovaes/Documents/pfsc/AgentBasedModel/model.build
+[2022-11-03T14:04:34.348301 21242] Compiler type: clang
+[2022-11-03T14:04:34.348395 21242] Source file: static_src/CompiledFunctionType.c
+[2022-11-03T14:04:34.348403 21242] Object file: static_src/CompiledFunctionType.o
+[2022-11-03T14:04:34.348438 21242] Trying direct lookup
+[2022-11-03T14:04:34.348811 21242] No manifest with name 61578tgifc1oc7bnedaqm5o5p8fq1rn96 in the cache
+[2022-11-03T14:04:34.349879 21242] Running preprocessor
+[2022-11-03T14:04:34.349905 21242] Executing /usr/bin/clang -flto -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden --target=x86_64-apple-macos10.9 -O3 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_CODE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/Users/juliananovaes/opt/anaconda3/include/python3.7m -I. -I/Users/juliananovaes/opt/anaconda3/lib/python3.7/site-packages/nuitka/build/include -I/Users/juliananovaes/opt/anaconda3/lib/python3.7/site-packages/nuitka/build/static_src -E static_src/CompiledFunctionType.c
+[2022-11-03T14:04:34.357784 21221] Got result name from preprocessor
+[2022-11-03T14:04:34.357829 21223] Got result name from preprocessor
+[2022-11-03T14:04:34.357867 21221] No result with name 4ecad6adqtsggnln393m87m4buadsfk54 in the cache
+[2022-11-03T14:04:34.357884 21221] Running real compiler
+[2022-11-03T14:04:34.357922 21223] No result with name 719e4tkqc883qa1idtacsnfb32amj7mgs in the cache
+[2022-11-03T14:04:34.357953 21223] Running real compiler
+[2022-11-03T14:04:34.358741 21227] Got result name from preprocessor
+[2022-11-03T14:04:34.358800 21227] No result with name ec0fq8g2nsvm3ompmd3of5nbebomijtc4 in the cache
+[2022-11-03T14:04:34.358814 21227] Running real compiler
+[2022-11-03T14:04:34.358899 21223] Executing /usr/bin/clang -flto -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden --target=x86_64-apple-macos10.9 -O3 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_CODE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/Users/juliananovaes/opt/anaconda3/include/python3.7m -I. -I/Users/juliananovaes/opt/anaconda3/lib/python3.7/site-packages/nuitka/build/include -I/Users/juliananovaes/opt/anaconda3/lib/python3.7/site-packages/nuitka/build/static_src -c -fcolor-diagnostics -o __helpers.o __helpers.c
+[2022-11-03T14:04:34.358924 21221] Executing /usr/bin/clang -flto -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden --target=x86_64-apple-macos10.9 -O3 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_CODE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/Users/juliananovaes/opt/anaconda3/include/python3.7m -I. -I/Users/juliananovaes/opt/anaconda3/lib/python3.7/site-packages/nuitka/build/include -I/Users/juliananovaes/opt/anaconda3/lib/python3.7/site-packages/nuitka/build/static_src -c -fcolor-diagnostics -o __constants.o __constants.c
+[2022-11-03T14:04:34.360072 21227] Executing /usr/bin/clang -flto -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden --target=x86_64-apple-macos10.9 -O3 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_CODE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/Users/juliananovaes/opt/anaconda3/include/python3.7m -I. -I/Users/juliananovaes/opt/anaconda3/lib/python3.7/site-packages/nuitka/build/include -I/Users/juliananovaes/opt/anaconda3/lib/python3.7/site-packages/nuitka/build/static_src -c -fcolor-diagnostics -o module.__main__.o module.__main__.c
+[2022-11-03T14:04:34.370274 21243] === CCACHE master.971f1183 STARTED =========================================
+[2022-11-03T14:04:34.370274 21243] Config: (default) absolute_paths_in_stderr = false
+[2022-11-03T14:04:34.370274 21243] Config: (default) base_dir = 
+[2022-11-03T14:04:34.370274 21243] Config: (environment) cache_dir = /Users/juliananovaes/Library/Caches/Nuitka/ccache
+[2022-11-03T14:04:34.370274 21243] Config: (default) compiler = 
+[2022-11-03T14:04:34.370274 21243] Config: (default) compiler_check = mtime
+[2022-11-03T14:04:34.370274 21243] Config: (default) compiler_type = auto
+[2022-11-03T14:04:34.370274 21243] Config: (default) compression = true
+[2022-11-03T14:04:34.370274 21243] Config: (default) compression_level = 0
+[2022-11-03T14:04:34.370274 21243] Config: (default) cpp_extension = 
+[2022-11-03T14:04:34.370274 21243] Config: (default) debug = false
+[2022-11-03T14:04:34.370274 21243] Config: (default) debug_dir = 
+[2022-11-03T14:04:34.370274 21243] Config: (default) depend_mode = false
+[2022-11-03T14:04:34.370274 21243] Config: (default) direct_mode = true
+[2022-11-03T14:04:34.370274 21243] Config: (default) disable = false
+[2022-11-03T14:04:34.370274 21243] Config: (default) extra_files_to_hash = 
+[2022-11-03T14:04:34.370274 21243] Config: (default) file_clone = false
+[2022-11-03T14:04:34.370274 21243] Config: (default) hard_link = false
+[2022-11-03T14:04:34.370274 21243] Config: (default) hash_dir = true
+[2022-11-03T14:04:34.370274 21243] Config: (default) ignore_headers_in_manifest = 
+[2022-11-03T14:04:34.370274 21243] Config: (default) ignore_options = 
+[2022-11-03T14:04:34.370274 21243] Config: (default) inode_cache = false
+[2022-11-03T14:04:34.370274 21243] Config: (default) keep_comments_cpp = false
+[2022-11-03T14:04:34.370274 21243] Config: (default) limit_multiple = 0.8
+[2022-11-03T14:04:34.370274 21243] Config: (environment) log_file = /Users/juliananovaes/Documents/pfsc/AgentBasedModel/model.build/ccache-21209.txt
+[2022-11-03T14:04:34.370274 21243] Config: (default) max_files = 0
+[2022-11-03T14:04:34.370274 21243] Config: (default) max_size = 5.0G
+[2022-11-03T14:04:34.370274 21243] Config: (default) path = 
+[2022-11-03T14:04:34.370274 21243] Config: (default) pch_external_checksum = false
+[2022-11-03T14:04:34.370274 21243] Config: (default) prefix_command = 
+[2022-11-03T14:04:34.370274 21243] Config: (default) prefix_command_cpp = 
+[2022-11-03T14:04:34.370274 21243] Config: (default) read_only = false
+[2022-11-03T14:04:34.370274 21243] Config: (default) read_only_direct = false
+[2022-11-03T14:04:34.370274 21243] Config: (default) recache = false
+[2022-11-03T14:04:34.370274 21243] Config: (default) run_second_cpp = true
+[2022-11-03T14:04:34.370274 21243] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2022-11-03T14:04:34.370274 21243] Config: (default) stats = true
+[2022-11-03T14:04:34.370274 21243] Config: (default) temporary_dir = /Users/juliananovaes/Library/Caches/Nuitka/ccache/tmp
+[2022-11-03T14:04:34.370274 21243] Config: (default) umask = 
+[2022-11-03T14:04:34.370418 21243] Command line: /Users/juliananovaes/Library/Application Support/Nuitka/ccache/v4.2.1/ccache /usr/bin/clang -o static_src/CompiledGeneratorType.o -c -flto -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden --target=x86_64-apple-macos10.9 -O3 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_CODE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/Users/juliananovaes/opt/anaconda3/include/python3.7m -I. -I/Users/juliananovaes/opt/anaconda3/lib/python3.7/site-packages/nuitka/build/include -I/Users/juliananovaes/opt/anaconda3/lib/python3.7/site-packages/nuitka/build/static_src static_src/CompiledGeneratorType.c
+[2022-11-03T14:04:34.370430 21243] Hostname: MacBookPro_Q9HJ6P5XMR
+[2022-11-03T14:04:34.370437 21243] Working directory: /Users/juliananovaes/Documents/pfsc/AgentBasedModel/model.build
+[2022-11-03T14:04:34.370455 21243] Compiler type: clang
+[2022-11-03T14:04:34.370547 21243] Source file: static_src/CompiledGeneratorType.c
+[2022-11-03T14:04:34.370555 21243] Object file: static_src/CompiledGeneratorType.o
+[2022-11-03T14:04:34.370583 21243] Trying direct lookup
+[2022-11-03T14:04:34.370939 21243] No manifest with name 7b21n6091marq2d7v5nb05ijlco06ld24 in the cache
+[2022-11-03T14:04:34.372203 21243] Running preprocessor
+[2022-11-03T14:04:34.372234 21243] Executing /usr/bin/clang -flto -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden --target=x86_64-apple-macos10.9 -O3 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_CODE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/Users/juliananovaes/opt/anaconda3/include/python3.7m -I. -I/Users/juliananovaes/opt/anaconda3/lib/python3.7/site-packages/nuitka/build/include -I/Users/juliananovaes/opt/anaconda3/lib/python3.7/site-packages/nuitka/build/static_src -E static_src/CompiledGeneratorType.c
+[2022-11-03T14:04:34.393754 21248] === CCACHE master.971f1183 STARTED =========================================
+[2022-11-03T14:04:34.393754 21248] Config: (default) absolute_paths_in_stderr = false
+[2022-11-03T14:04:34.393754 21248] Config: (default) base_dir = 
+[2022-11-03T14:04:34.393754 21248] Config: (environment) cache_dir = /Users/juliananovaes/Library/Caches/Nuitka/ccache
+[2022-11-03T14:04:34.393754 21248] Config: (default) compiler = 
+[2022-11-03T14:04:34.393754 21248] Config: (default) compiler_check = mtime
+[2022-11-03T14:04:34.393754 21248] Config: (default) compiler_type = auto
+[2022-11-03T14:04:34.393754 21248] Config: (default) compression = true
+[2022-11-03T14:04:34.393754 21248] Config: (default) compression_level = 0
+[2022-11-03T14:04:34.393754 21248] Config: (default) cpp_extension = 
+[2022-11-03T14:04:34.393754 21248] Config: (default) debug = false
+[2022-11-03T14:04:34.393754 21248] Config: (default) debug_dir = 
+[2022-11-03T14:04:34.393754 21248] Config: (default) depend_mode = false
+[2022-11-03T14:04:34.393754 21248] Config: (default) direct_mode = true
+[2022-11-03T14:04:34.393754 21248] Config: (default) disable = false
+[2022-11-03T14:04:34.393754 21248] Config: (default) extra_files_to_hash = 
+[2022-11-03T14:04:34.393754 21248] Config: (default) file_clone = false
+[2022-11-03T14:04:34.393754 21248] Config: (default) hard_link = false
+[2022-11-03T14:04:34.393754 21248] Config: (default) hash_dir = true
+[2022-11-03T14:04:34.393754 21248] Config: (default) ignore_headers_in_manifest = 
+[2022-11-03T14:04:34.393754 21248] Config: (default) ignore_options = 
+[2022-11-03T14:04:34.393754 21248] Config: (default) inode_cache = false
+[2022-11-03T14:04:34.393754 21248] Config: (default) keep_comments_cpp = false
+[2022-11-03T14:04:34.393754 21248] Config: (default) limit_multiple = 0.8
+[2022-11-03T14:04:34.393754 21248] Config: (environment) log_file = /Users/juliananovaes/Documents/pfsc/AgentBasedModel/model.build/ccache-21209.txt
+[2022-11-03T14:04:34.393754 21248] Config: (default) max_files = 0
+[2022-11-03T14:04:34.393754 21248] Config: (default) max_size = 5.0G
+[2022-11-03T14:04:34.393754 21248] Config: (default) path = 
+[2022-11-03T14:04:34.393754 21248] Config: (default) pch_external_checksum = false
+[2022-11-03T14:04:34.393754 21248] Config: (default) prefix_command = 
+[2022-11-03T14:04:34.393754 21248] Config: (default) prefix_command_cpp = 
+[2022-11-03T14:04:34.393754 21248] Config: (default) read_only = false
+[2022-11-03T14:04:34.393754 21248] Config: (default) read_only_direct = false
+[2022-11-03T14:04:34.393754 21248] Config: (default) recache = false
+[2022-11-03T14:04:34.393754 21248] Config: (default) run_second_cpp = true
+[2022-11-03T14:04:34.393754 21248] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2022-11-03T14:04:34.393754 21248] Config: (default) stats = true
+[2022-11-03T14:04:34.393754 21248] Config: (default) temporary_dir = /Users/juliananovaes/Library/Caches/Nuitka/ccache/tmp
+[2022-11-03T14:04:34.393754 21248] Config: (default) umask = 
+[2022-11-03T14:04:34.393901 21248] Command line: /Users/juliananovaes/Library/Application Support/Nuitka/ccache/v4.2.1/ccache /usr/bin/clang -o static_src/InspectPatcher.o -c -flto -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden --target=x86_64-apple-macos10.9 -O3 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_CODE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/Users/juliananovaes/opt/anaconda3/include/python3.7m -I. -I/Users/juliananovaes/opt/anaconda3/lib/python3.7/site-packages/nuitka/build/include -I/Users/juliananovaes/opt/anaconda3/lib/python3.7/site-packages/nuitka/build/static_src static_src/InspectPatcher.c
+[2022-11-03T14:04:34.393926 21248] Hostname: MacBookPro_Q9HJ6P5XMR
+[2022-11-03T14:04:34.393932 21248] Working directory: /Users/juliananovaes/Documents/pfsc/AgentBasedModel/model.build
+[2022-11-03T14:04:34.393938 21248] Compiler type: clang
+[2022-11-03T14:04:34.394039 21248] Source file: static_src/InspectPatcher.c
+[2022-11-03T14:04:34.394051 21248] Object file: static_src/InspectPatcher.o
+[2022-11-03T14:04:34.394086 21248] Trying direct lookup
+[2022-11-03T14:04:34.394250 21248] No manifest with name 3859bvqjtr77nf2akuv6lti59g1s07huq in the cache
+[2022-11-03T14:04:34.394373 21233] Got result name from preprocessor
+[2022-11-03T14:04:34.394421 21233] No result with name 5978j1m3rp1ekmv4t5qftk1feec8cv448 in the cache
+[2022-11-03T14:04:34.394432 21233] Running real compiler
+[2022-11-03T14:04:34.395045 21233] Executing /usr/bin/clang -flto -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden --target=x86_64-apple-macos10.9 -O3 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_CODE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/Users/juliananovaes/opt/anaconda3/include/python3.7m -I. -I/Users/juliananovaes/opt/anaconda3/lib/python3.7/site-packages/nuitka/build/include -I/Users/juliananovaes/opt/anaconda3/lib/python3.7/site-packages/nuitka/build/static_src -c -fcolor-diagnostics -o static_src/CompiledCellType.o static_src/CompiledCellType.c
+[2022-11-03T14:04:34.395049 21229] Got result name from preprocessor
+[2022-11-03T14:04:34.395096 21229] No result with name 109cbajedpvtmbkanbqf1ago2k6rao0ra in the cache
+[2022-11-03T14:04:34.395106 21229] Running real compiler
+[2022-11-03T14:04:34.395412 21248] Running preprocessor
+[2022-11-03T14:04:34.395511 21248] Executing /usr/bin/clang -flto -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden --target=x86_64-apple-macos10.9 -O3 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_CODE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/Users/juliananovaes/opt/anaconda3/include/python3.7m -I. -I/Users/juliananovaes/opt/anaconda3/lib/python3.7/site-packages/nuitka/build/include -I/Users/juliananovaes/opt/anaconda3/lib/python3.7/site-packages/nuitka/build/static_src -E static_src/InspectPatcher.c
+[2022-11-03T14:04:34.395572 21229] Executing /usr/bin/clang -flto -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden --target=x86_64-apple-macos10.9 -O3 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_CODE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/Users/juliananovaes/opt/anaconda3/include/python3.7m -I. -I/Users/juliananovaes/opt/anaconda3/lib/python3.7/site-packages/nuitka/build/include -I/Users/juliananovaes/opt/anaconda3/lib/python3.7/site-packages/nuitka/build/static_src -c -fcolor-diagnostics -o static_src/MainProgram.o static_src/MainProgram.c
+[2022-11-03T14:04:34.478742 21224] Using default compression level 1
+[2022-11-03T14:04:34.479380 21224] Storing result __loader.o
+[2022-11-03T14:04:34.479483 21224] Storing embedded file #0 .o (4832 bytes) from __loader.o
+[2022-11-03T14:04:34.481465 21224] Stored in cache: /Users/juliananovaes/Library/Caches/Nuitka/ccache/5/6/9c2u45e8d0dnn003b76ft1346pf14hsR
+[2022-11-03T14:04:34.481821 21224] Adding result name to /Users/juliananovaes/Library/Caches/Nuitka/ccache/6/1/11s3rtqiftdl9jujs15bqgvpoadhdk4M
+[2022-11-03T14:04:34.483920 21224] Using default compression level 1
+[2022-11-03T14:04:34.484700 21224] Result: cache miss
+[2022-11-03T14:04:34.485221 21224] Acquired lock /Users/juliananovaes/Library/Caches/Nuitka/ccache/6/stats.lock
+[2022-11-03T14:04:34.486361 21224] Releasing lock /Users/juliananovaes/Library/Caches/Nuitka/ccache/6/stats.lock
+[2022-11-03T14:04:34.486519 21224] Unlink /Users/juliananovaes/Library/Caches/Nuitka/ccache/6/stats.lock
+[2022-11-03T14:04:34.486702 21224] Acquired lock /Users/juliananovaes/Library/Caches/Nuitka/ccache/5/stats.lock
+[2022-11-03T14:04:34.487482 21224] Releasing lock /Users/juliananovaes/Library/Caches/Nuitka/ccache/5/stats.lock
+[2022-11-03T14:04:34.488153 21224] Unlink /Users/juliananovaes/Library/Caches/Nuitka/ccache/5/stats.lock
+[2022-11-03T14:04:34.488290 21224] Unlink /Users/juliananovaes/Library/Caches/Nuitka/ccache/tmp/tmp.stderr.wqbK75
+[2022-11-03T14:04:34.488469 21224] Unlink /Users/juliananovaes/Library/Caches/Nuitka/ccache/tmp/tmp.stdout.IH4iwu
+[2022-11-03T14:04:34.488861 21224] Unlink /Users/juliananovaes/Library/Caches/Nuitka/ccache/tmp/tmp.cpp_stderr.XWaDuS
+[2022-11-03T14:04:34.489195 21224] Unlink /Users/juliananovaes/Library/Caches/Nuitka/ccache/tmp/tmp.cpp_stdout.uDMeda.i
+[2022-11-03T14:04:34.489573 21224] Unlink /Users/juliananovaes/Library/Caches/Nuitka/ccache/tmp/tmp.cpp_stdout.uDMeda
+[2022-11-03T14:04:34.523665 21223] Using default compression level 1
+[2022-11-03T14:04:34.523774 21223] Storing result __helpers.o
+[2022-11-03T14:04:34.523790 21223] Storing embedded file #0 .o (1664 bytes) from __helpers.o
+[2022-11-03T14:04:34.524528 21223] Stored in cache: /Users/juliananovaes/Library/Caches/Nuitka/ccache/7/1/9e4tkqc883qa1idtacsnfb32amj7mgsR
+[2022-11-03T14:04:34.524761 21223] Adding result name to /Users/juliananovaes/Library/Caches/Nuitka/ccache/0/2/badmq775dujqem2bfl4purj3u03cei8M
+[2022-11-03T14:04:34.526628 21223] Using default compression level 1
+[2022-11-03T14:04:34.526753 21221] Using default compression level 1
+[2022-11-03T14:04:34.526851 21221] Storing result __constants.o
+[2022-11-03T14:04:34.526864 21221] Storing embedded file #0 .o (7728 bytes) from __constants.o
+[2022-11-03T14:04:34.527563 21221] Stored in cache: /Users/juliananovaes/Library/Caches/Nuitka/ccache/4/e/cad6adqtsggnln393m87m4buadsfk54R
+[2022-11-03T14:04:34.527573 21223] Result: cache miss
+[2022-11-03T14:04:34.527723 21221] Adding result name to /Users/juliananovaes/Library/Caches/Nuitka/ccache/f/7/7dmrooem47pm4b60mu3s1g6nelc9eggM
+[2022-11-03T14:04:34.527843 21223] Acquired lock /Users/juliananovaes/Library/Caches/Nuitka/ccache/0/stats.lock
+[2022-11-03T14:04:34.528809 21223] Releasing lock /Users/juliananovaes/Library/Caches/Nuitka/ccache/0/stats.lock
+[2022-11-03T14:04:34.528934 21223] Unlink /Users/juliananovaes/Library/Caches/Nuitka/ccache/0/stats.lock
+[2022-11-03T14:04:34.529098 21223] Acquired lock /Users/juliananovaes/Library/Caches/Nuitka/ccache/7/stats.lock
+[2022-11-03T14:04:34.529266 21221] Using default compression level 1
+[2022-11-03T14:04:34.529888 21223] Releasing lock /Users/juliananovaes/Library/Caches/Nuitka/ccache/7/stats.lock
+[2022-11-03T14:04:34.529996 21223] Unlink /Users/juliananovaes/Library/Caches/Nuitka/ccache/7/stats.lock
+[2022-11-03T14:04:34.530231 21223] Unlink /Users/juliananovaes/Library/Caches/Nuitka/ccache/tmp/tmp.stderr.PWDMV7
+[2022-11-03T14:04:34.530379 21223] Unlink /Users/juliananovaes/Library/Caches/Nuitka/ccache/tmp/tmp.stdout.IZlQ7L
+[2022-11-03T14:04:34.530386 21221] Result: cache miss
+[2022-11-03T14:04:34.530501 21223] Unlink /Users/juliananovaes/Library/Caches/Nuitka/ccache/tmp/tmp.cpp_stderr.ohew0H
+[2022-11-03T14:04:34.530637 21221] Acquired lock /Users/juliananovaes/Library/Caches/Nuitka/ccache/f/stats.lock
+[2022-11-03T14:04:34.530746 21223] Unlink /Users/juliananovaes/Library/Caches/Nuitka/ccache/tmp/tmp.cpp_stdout.0IGnH3.i
+[2022-11-03T14:04:34.530921 21223] Unlink /Users/juliananovaes/Library/Caches/Nuitka/ccache/tmp/tmp.cpp_stdout.0IGnH3
+[2022-11-03T14:04:34.532639 21221] Releasing lock /Users/juliananovaes/Library/Caches/Nuitka/ccache/f/stats.lock
+[2022-11-03T14:04:34.533094 21221] Unlink /Users/juliananovaes/Library/Caches/Nuitka/ccache/f/stats.lock
+[2022-11-03T14:04:34.533492 21221] Acquired lock /Users/juliananovaes/Library/Caches/Nuitka/ccache/4/stats.lock
+[2022-11-03T14:04:34.534898 21221] Releasing lock /Users/juliananovaes/Library/Caches/Nuitka/ccache/4/stats.lock
+[2022-11-03T14:04:34.535054 21221] Unlink /Users/juliananovaes/Library/Caches/Nuitka/ccache/4/stats.lock
+[2022-11-03T14:04:34.535228 21221] Unlink /Users/juliananovaes/Library/Caches/Nuitka/ccache/tmp/tmp.stderr.CZF1Lb
+[2022-11-03T14:04:34.535349 21221] Unlink /Users/juliananovaes/Library/Caches/Nuitka/ccache/tmp/tmp.stdout.LBOXdf
+[2022-11-03T14:04:34.535429 21221] Unlink /Users/juliananovaes/Library/Caches/Nuitka/ccache/tmp/tmp.cpp_stderr.65wThU
+[2022-11-03T14:04:34.535588 21221] Unlink /Users/juliananovaes/Library/Caches/Nuitka/ccache/tmp/tmp.cpp_stdout.I0zuWM.i
+[2022-11-03T14:04:34.535741 21221] Unlink /Users/juliananovaes/Library/Caches/Nuitka/ccache/tmp/tmp.cpp_stdout.I0zuWM
+[2022-11-03T14:04:34.557645 21243] Got result name from preprocessor
+[2022-11-03T14:04:34.557711 21243] No result with name 9012lmop2phfguc0qarc8fip9i1ntjuog in the cache
+[2022-11-03T14:04:34.557724 21243] Running real compiler
+[2022-11-03T14:04:34.558067 21243] Executing /usr/bin/clang -flto -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden --target=x86_64-apple-macos10.9 -O3 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_CODE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/Users/juliananovaes/opt/anaconda3/include/python3.7m -I. -I/Users/juliananovaes/opt/anaconda3/lib/python3.7/site-packages/nuitka/build/include -I/Users/juliananovaes/opt/anaconda3/lib/python3.7/site-packages/nuitka/build/static_src -c -fcolor-diagnostics -o static_src/CompiledGeneratorType.o static_src/CompiledGeneratorType.c
+[2022-11-03T14:04:34.577403 21229] Using default compression level 1
+[2022-11-03T14:04:34.577523 21229] Storing result static_src/MainProgram.o
+[2022-11-03T14:04:34.577583 21229] Storing embedded file #0 .o (15328 bytes) from static_src/MainProgram.o
+[2022-11-03T14:04:34.578234 21229] Stored in cache: /Users/juliananovaes/Library/Caches/Nuitka/ccache/1/0/9cbajedpvtmbkanbqf1ago2k6rao0raR
+[2022-11-03T14:04:34.578377 21229] Adding result name to /Users/juliananovaes/Library/Caches/Nuitka/ccache/5/1/c4rt1ivdamn1ndauh6v8mtvj87u41laM
+[2022-11-03T14:04:34.579828 21229] Using default compression level 1
+[2022-11-03T14:04:34.579948 21233] Using default compression level 1
+[2022-11-03T14:04:34.580036 21233] Storing result static_src/CompiledCellType.o
+[2022-11-03T14:04:34.580048 21233] Storing embedded file #0 .o (10976 bytes) from static_src/CompiledCellType.o
+[2022-11-03T14:04:34.580627 21233] Stored in cache: /Users/juliananovaes/Library/Caches/Nuitka/ccache/5/9/78j1m3rp1ekmv4t5qftk1feec8cv448R
+[2022-11-03T14:04:34.580711 21229] Result: cache miss
+[2022-11-03T14:04:34.580748 21233] Adding result name to /Users/juliananovaes/Library/Caches/Nuitka/ccache/b/f/a8hostq102c9thggkb4k86aphmhr6lmM
+[2022-11-03T14:04:34.580909 21229] Acquired lock /Users/juliananovaes/Library/Caches/Nuitka/ccache/5/stats.lock
+[2022-11-03T14:04:34.581531 21229] Releasing lock /Users/juliananovaes/Library/Caches/Nuitka/ccache/5/stats.lock
+[2022-11-03T14:04:34.581632 21229] Unlink /Users/juliananovaes/Library/Caches/Nuitka/ccache/5/stats.lock
+[2022-11-03T14:04:34.581751 21229] Acquired lock /Users/juliananovaes/Library/Caches/Nuitka/ccache/1/stats.lock
+[2022-11-03T14:04:34.582093 21233] Using default compression level 1
+[2022-11-03T14:04:34.582436 21229] Releasing lock /Users/juliananovaes/Library/Caches/Nuitka/ccache/1/stats.lock
+[2022-11-03T14:04:34.582579 21229] Unlink /Users/juliananovaes/Library/Caches/Nuitka/ccache/1/stats.lock
+[2022-11-03T14:04:34.582709 21229] Unlink /Users/juliananovaes/Library/Caches/Nuitka/ccache/tmp/tmp.stderr.3HhyaZ
+[2022-11-03T14:04:34.582829 21229] Unlink /Users/juliananovaes/Library/Caches/Nuitka/ccache/tmp/tmp.stdout.5zGp2Q
+[2022-11-03T14:04:34.582914 21233] Result: cache miss
+[2022-11-03T14:04:34.582933 21229] Unlink /Users/juliananovaes/Library/Caches/Nuitka/ccache/tmp/tmp.cpp_stderr.kbkzdI
+[2022-11-03T14:04:34.583071 21233] Acquired lock /Users/juliananovaes/Library/Caches/Nuitka/ccache/b/stats.lock
+[2022-11-03T14:04:34.583096 21229] Unlink /Users/juliananovaes/Library/Caches/Nuitka/ccache/tmp/tmp.cpp_stdout.aRQ3Vc.i
+[2022-11-03T14:04:34.583279 21229] Unlink /Users/juliananovaes/Library/Caches/Nuitka/ccache/tmp/tmp.cpp_stdout.aRQ3Vc
+[2022-11-03T14:04:34.583778 21233] Releasing lock /Users/juliananovaes/Library/Caches/Nuitka/ccache/b/stats.lock
+[2022-11-03T14:04:34.583868 21233] Unlink /Users/juliananovaes/Library/Caches/Nuitka/ccache/b/stats.lock
+[2022-11-03T14:04:34.584061 21233] Acquired lock /Users/juliananovaes/Library/Caches/Nuitka/ccache/5/stats.lock
+[2022-11-03T14:04:34.585116 21233] Releasing lock /Users/juliananovaes/Library/Caches/Nuitka/ccache/5/stats.lock
+[2022-11-03T14:04:34.585322 21233] Unlink /Users/juliananovaes/Library/Caches/Nuitka/ccache/5/stats.lock
+[2022-11-03T14:04:34.585458 21233] Unlink /Users/juliananovaes/Library/Caches/Nuitka/ccache/tmp/tmp.stderr.F2PEk0
+[2022-11-03T14:04:34.585559 21233] Unlink /Users/juliananovaes/Library/Caches/Nuitka/ccache/tmp/tmp.stdout.nmT2aL
+[2022-11-03T14:04:34.585657 21233] Unlink /Users/juliananovaes/Library/Caches/Nuitka/ccache/tmp/tmp.cpp_stderr.cYhL9i
+[2022-11-03T14:04:34.585839 21233] Unlink /Users/juliananovaes/Library/Caches/Nuitka/ccache/tmp/tmp.cpp_stdout.KLiWWC.i
+[2022-11-03T14:04:34.586022 21233] Unlink /Users/juliananovaes/Library/Caches/Nuitka/ccache/tmp/tmp.cpp_stdout.KLiWWC
+[2022-11-03T14:04:34.587535 21248] Got result name from preprocessor
+[2022-11-03T14:04:34.587603 21248] No result with name 1cd4uejhl595djt1g7r51cl1h7ev68i0u in the cache
+[2022-11-03T14:04:34.587624 21248] Running real compiler
+[2022-11-03T14:04:34.588065 21248] Executing /usr/bin/clang -flto -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden --target=x86_64-apple-macos10.9 -O3 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_CODE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/Users/juliananovaes/opt/anaconda3/include/python3.7m -I. -I/Users/juliananovaes/opt/anaconda3/lib/python3.7/site-packages/nuitka/build/include -I/Users/juliananovaes/opt/anaconda3/lib/python3.7/site-packages/nuitka/build/static_src -c -fcolor-diagnostics -o static_src/InspectPatcher.o static_src/InspectPatcher.c
+[2022-11-03T14:04:34.682665 21242] Got result name from preprocessor
+[2022-11-03T14:04:34.682751 21242] No result with name bedfbvalpru4r3apk88o7g4l9inea0b2i in the cache
+[2022-11-03T14:04:34.682764 21242] Running real compiler
+[2022-11-03T14:04:34.683132 21242] Executing /usr/bin/clang -flto -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden --target=x86_64-apple-macos10.9 -O3 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_CODE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/Users/juliananovaes/opt/anaconda3/include/python3.7m -I. -I/Users/juliananovaes/opt/anaconda3/lib/python3.7/site-packages/nuitka/build/include -I/Users/juliananovaes/opt/anaconda3/lib/python3.7/site-packages/nuitka/build/static_src -c -fcolor-diagnostics -o static_src/CompiledFunctionType.o static_src/CompiledFunctionType.c
+[2022-11-03T14:04:34.743643 21248] Using default compression level 1
+[2022-11-03T14:04:34.743754 21248] Storing result static_src/InspectPatcher.o
+[2022-11-03T14:04:34.743769 21248] Storing embedded file #0 .o (17040 bytes) from static_src/InspectPatcher.o
+[2022-11-03T14:04:34.744324 21248] Stored in cache: /Users/juliananovaes/Library/Caches/Nuitka/ccache/1/c/d4uejhl595djt1g7r51cl1h7ev68i0uR
+[2022-11-03T14:04:34.744491 21248] Adding result name to /Users/juliananovaes/Library/Caches/Nuitka/ccache/3/8/59bvqjtr77nf2akuv6lti59g1s07huqM
+[2022-11-03T14:04:34.746111 21248] Using default compression level 1
+[2022-11-03T14:04:34.746898 21248] Result: cache miss
+[2022-11-03T14:04:34.747084 21248] Acquired lock /Users/juliananovaes/Library/Caches/Nuitka/ccache/3/stats.lock
+[2022-11-03T14:04:34.747911 21248] Releasing lock /Users/juliananovaes/Library/Caches/Nuitka/ccache/3/stats.lock
+[2022-11-03T14:04:34.748010 21248] Unlink /Users/juliananovaes/Library/Caches/Nuitka/ccache/3/stats.lock
+[2022-11-03T14:04:34.748133 21248] Acquired lock /Users/juliananovaes/Library/Caches/Nuitka/ccache/1/stats.lock
+[2022-11-03T14:04:34.748597 21248] Releasing lock /Users/juliananovaes/Library/Caches/Nuitka/ccache/1/stats.lock
+[2022-11-03T14:04:34.748688 21248] Unlink /Users/juliananovaes/Library/Caches/Nuitka/ccache/1/stats.lock
+[2022-11-03T14:04:34.748819 21248] Unlink /Users/juliananovaes/Library/Caches/Nuitka/ccache/tmp/tmp.stderr.eezHHC
+[2022-11-03T14:04:34.748902 21248] Unlink /Users/juliananovaes/Library/Caches/Nuitka/ccache/tmp/tmp.stdout.WiGrJm
+[2022-11-03T14:04:34.749014 21248] Unlink /Users/juliananovaes/Library/Caches/Nuitka/ccache/tmp/tmp.cpp_stderr.gXriip
+[2022-11-03T14:04:34.749130 21248] Unlink /Users/juliananovaes/Library/Caches/Nuitka/ccache/tmp/tmp.cpp_stdout.VplLVh.i
+[2022-11-03T14:04:34.749268 21248] Unlink /Users/juliananovaes/Library/Caches/Nuitka/ccache/tmp/tmp.cpp_stdout.VplLVh
+[2022-11-03T14:04:35.183581 21243] Using default compression level 1
+[2022-11-03T14:04:35.183717 21243] Storing result static_src/CompiledGeneratorType.o
+[2022-11-03T14:04:35.183737 21243] Storing embedded file #0 .o (168736 bytes) from static_src/CompiledGeneratorType.o
+[2022-11-03T14:04:35.185535 21243] Stored in cache: /Users/juliananovaes/Library/Caches/Nuitka/ccache/9/0/12lmop2phfguc0qarc8fip9i1ntjuogR
+[2022-11-03T14:04:35.186844 21243] Adding result name to /Users/juliananovaes/Library/Caches/Nuitka/ccache/7/b/21n6091marq2d7v5nb05ijlco06ld24M
+[2022-11-03T14:04:35.188726 21243] Using default compression level 1
+[2022-11-03T14:04:35.189272 21227] Using default compression level 1
+[2022-11-03T14:04:35.189357 21227] Storing result module.__main__.o
+[2022-11-03T14:04:35.189368 21227] Storing embedded file #0 .o (206768 bytes) from module.__main__.o
+[2022-11-03T14:04:35.189435 21243] Result: cache miss
+[2022-11-03T14:04:35.189687 21243] Acquired lock /Users/juliananovaes/Library/Caches/Nuitka/ccache/7/stats.lock
+[2022-11-03T14:04:35.190620 21243] Releasing lock /Users/juliananovaes/Library/Caches/Nuitka/ccache/7/stats.lock
+[2022-11-03T14:04:35.190773 21243] Unlink /Users/juliananovaes/Library/Caches/Nuitka/ccache/7/stats.lock
+[2022-11-03T14:04:35.191054 21243] Acquired lock /Users/juliananovaes/Library/Caches/Nuitka/ccache/9/stats.lock
+[2022-11-03T14:04:35.191087 21227] Stored in cache: /Users/juliananovaes/Library/Caches/Nuitka/ccache/e/c/0fq8g2nsvm3ompmd3of5nbebomijtc4R
+[2022-11-03T14:04:35.191525 21227] Adding result name to /Users/juliananovaes/Library/Caches/Nuitka/ccache/6/8/9878d7vlr91h4rdh6qhdh48st72gq30M
+[2022-11-03T14:04:35.192460 21243] Releasing lock /Users/juliananovaes/Library/Caches/Nuitka/ccache/9/stats.lock
+[2022-11-03T14:04:35.192607 21243] Unlink /Users/juliananovaes/Library/Caches/Nuitka/ccache/9/stats.lock
+[2022-11-03T14:04:35.192750 21243] Unlink /Users/juliananovaes/Library/Caches/Nuitka/ccache/tmp/tmp.stderr.iQkerf
+[2022-11-03T14:04:35.192852 21227] Using default compression level 1
+[2022-11-03T14:04:35.192889 21243] Unlink /Users/juliananovaes/Library/Caches/Nuitka/ccache/tmp/tmp.stdout.4Uryjv
+[2022-11-03T14:04:35.193014 21243] Unlink /Users/juliananovaes/Library/Caches/Nuitka/ccache/tmp/tmp.cpp_stderr.NaPEuK
+[2022-11-03T14:04:35.193168 21243] Unlink /Users/juliananovaes/Library/Caches/Nuitka/ccache/tmp/tmp.cpp_stdout.Z3rmir.i
+[2022-11-03T14:04:35.193348 21243] Unlink /Users/juliananovaes/Library/Caches/Nuitka/ccache/tmp/tmp.cpp_stdout.Z3rmir
+[2022-11-03T14:04:35.193684 21227] Result: cache miss
+[2022-11-03T14:04:35.193874 21227] Acquired lock /Users/juliananovaes/Library/Caches/Nuitka/ccache/6/stats.lock
+[2022-11-03T14:04:35.195731 21227] Releasing lock /Users/juliananovaes/Library/Caches/Nuitka/ccache/6/stats.lock
+[2022-11-03T14:04:35.195962 21227] Unlink /Users/juliananovaes/Library/Caches/Nuitka/ccache/6/stats.lock
+[2022-11-03T14:04:35.196345 21227] Acquired lock /Users/juliananovaes/Library/Caches/Nuitka/ccache/e/stats.lock
+[2022-11-03T14:04:35.197358 21227] Releasing lock /Users/juliananovaes/Library/Caches/Nuitka/ccache/e/stats.lock
+[2022-11-03T14:04:35.197501 21227] Unlink /Users/juliananovaes/Library/Caches/Nuitka/ccache/e/stats.lock
+[2022-11-03T14:04:35.197646 21227] Unlink /Users/juliananovaes/Library/Caches/Nuitka/ccache/tmp/tmp.stderr.6FMZZN
+[2022-11-03T14:04:35.197775 21227] Unlink /Users/juliananovaes/Library/Caches/Nuitka/ccache/tmp/tmp.stdout.tYh2du
+[2022-11-03T14:04:35.197910 21227] Unlink /Users/juliananovaes/Library/Caches/Nuitka/ccache/tmp/tmp.cpp_stderr.Xq1cYI
+[2022-11-03T14:04:35.198055 21227] Unlink /Users/juliananovaes/Library/Caches/Nuitka/ccache/tmp/tmp.cpp_stdout.1PSqWH.i
+[2022-11-03T14:04:35.198228 21227] Unlink /Users/juliananovaes/Library/Caches/Nuitka/ccache/tmp/tmp.cpp_stdout.1PSqWH
+[2022-11-03T14:04:39.032350 21242] Using default compression level 1
+[2022-11-03T14:04:39.032456 21242] Storing result static_src/CompiledFunctionType.o
+[2022-11-03T14:04:39.032471 21242] Storing embedded file #0 .o (1213008 bytes) from static_src/CompiledFunctionType.o
+[2022-11-03T14:04:39.037500 21242] Stored in cache: /Users/juliananovaes/Library/Caches/Nuitka/ccache/b/e/dfbvalpru4r3apk88o7g4l9inea0b2iR
+[2022-11-03T14:04:39.037769 21242] Adding result name to /Users/juliananovaes/Library/Caches/Nuitka/ccache/6/1/578tgifc1oc7bnedaqm5o5p8fq1rn96M
+[2022-11-03T14:04:39.039599 21242] Using default compression level 1
+[2022-11-03T14:04:39.040606 21242] Result: cache miss
+[2022-11-03T14:04:39.040935 21242] Acquired lock /Users/juliananovaes/Library/Caches/Nuitka/ccache/6/stats.lock
+[2022-11-03T14:04:39.042378 21242] Releasing lock /Users/juliananovaes/Library/Caches/Nuitka/ccache/6/stats.lock
+[2022-11-03T14:04:39.042593 21242] Unlink /Users/juliananovaes/Library/Caches/Nuitka/ccache/6/stats.lock
+[2022-11-03T14:04:39.042824 21242] Acquired lock /Users/juliananovaes/Library/Caches/Nuitka/ccache/b/stats.lock
+[2022-11-03T14:04:39.043774 21242] Releasing lock /Users/juliananovaes/Library/Caches/Nuitka/ccache/b/stats.lock
+[2022-11-03T14:04:39.043962 21242] Unlink /Users/juliananovaes/Library/Caches/Nuitka/ccache/b/stats.lock
+[2022-11-03T14:04:39.044144 21242] Unlink /Users/juliananovaes/Library/Caches/Nuitka/ccache/tmp/tmp.stderr.TDxa04
+[2022-11-03T14:04:39.044898 21242] Unlink /Users/juliananovaes/Library/Caches/Nuitka/ccache/tmp/tmp.stdout.iMToM5
+[2022-11-03T14:04:39.045082 21242] Unlink /Users/juliananovaes/Library/Caches/Nuitka/ccache/tmp/tmp.cpp_stderr.4K74a0
+[2022-11-03T14:04:39.045273 21242] Unlink /Users/juliananovaes/Library/Caches/Nuitka/ccache/tmp/tmp.cpp_stdout.LrtKqf.i
+[2022-11-03T14:04:39.045511 21242] Unlink /Users/juliananovaes/Library/Caches/Nuitka/ccache/tmp/tmp.cpp_stdout.LrtKqf
