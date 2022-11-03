@@ -2,6 +2,8 @@
 
 GitHub repository link: https://github.com/JulianaNovaes/AgentBasedModel
 
+<img width="1512" alt="image" src="https://user-images.githubusercontent.com/46926638/199777849-99181a31-50ed-4562-8dca-d5d1f0d497b5.png">
+
 ## Overview
 
 This project aims to create an agent-based model to simulate the behaviour of sheep and wolves interacting in an environment
@@ -54,6 +56,13 @@ This class defines the behaviour specific to wolves.
 |-----------------------|-------------------------------------------------------|
 | hunt                  | Searches for nearby sheep and follows them            |
 | kill                  | When it reaches a sheep, it will kill it              |
+
+
+## GUI
+
+A GUI was created so that users can play with the model. The GUI offers the possibility of users to choose the amount of sheep they want to include in the model <img width="1512" alt="image" src="https://user-images.githubusercontent.com/46926638/199777849-99181a31-50ed-4562-8dca-d5d1f0d497b5.png">.
+The GUI was built using the library Tkinter. 
+
 
 ## Running the agent-based model
 
