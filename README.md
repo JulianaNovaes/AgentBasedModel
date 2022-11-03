@@ -73,15 +73,18 @@ The GUI was built using the library Tkinter.
 
 The GUI can be found in the `abm.py` file. 
 
+A video demonstration of the program can be found in the `demo_video.mp4` file. 
+
 ## Running the agent-based model
 
 ### As an executable file: This option is only available for Mac users as this App was developed for Mac. 
-Run the model file from the dst folder.
+Run the model file from the dst folder. If you are a Windows user and would like to see how the app works, check out the `demo_video.mp4` file.
 
 ### With your local Python setup:
 
 To run the agent-based model in your machine, please, clone this repository and run the `abm.py` file., install the dependencies in the `requirements.txt` with `pip instlal -r requirements.txt` file and run.   
 It may take a bit of time for it to appear in your screen.
+
 
 ## Packages and dependencies
 
