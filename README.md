@@ -2,7 +2,7 @@
 
 GitHub repository link: https://github.com/JulianaNovaes/AgentBasedModel
 
-<img width="1512" alt="image" src="https://user-images.githubusercontent.com/46926638/199777849-99181a31-50ed-4562-8dca-d5d1f0d497b5.png">
+<img width="790" alt="image" src="https://user-images.githubusercontent.com/46926638/199799663-7543c2fb-868c-4286-9db5-b4bbd8a71cb4.png">
 
 ## Overview
 
@@ -68,7 +68,7 @@ This class defines the behaviour specific to wolves.
 
 ## GUI
 
-A GUI was created so that users can play with the model. The GUI offers the possibility of users to choose the amount of sheep they want to include in the model <img width="1512" alt="image" src="https://user-images.githubusercontent.com/46926638/199777849-99181a31-50ed-4562-8dca-d5d1f0d497b5.png">.
+A GUI was created so that users can play with the model. The GUI offers the possibility of users to choose the amount of sheep they want to include in the model <img width="790" alt="image" src="https://user-images.githubusercontent.com/46926638/199799691-728dcd3b-fc80-4254-b779-a678a1874867.png">
 The GUI was built using the library Tkinter. 
 
 The GUI can be found in the `abm.py` file. 
